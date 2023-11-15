@@ -12,6 +12,8 @@ class ScheduledTasks(commands.Cog):
     @tasks.loop(minutes=1)  # runs every minute
     async def job_test(self):
         print(f"It's {datetime.now().strftime('%H:%M:%S')}! Doing the test job...")
+        channel = self.bot.get_channel(self.channel)
+        await channel.send(f"Sending test job Message...")
 
     @job_test.before_loop
     async def before_job_test(self):
