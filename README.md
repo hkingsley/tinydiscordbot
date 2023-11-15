@@ -27,7 +27,7 @@ Dependencies are listed in the `requirements.txt` file and can be installed usin
 To configure the bot:
 1. Navigate to the `config` directory.
 2. Edit the configuration files to include your bot token and any other necessary settings. Follow the template provided in the configuration files for guidance. Currently setup to look for a environment variable called BOT_TOKEN
-3. For scheduled tasks and messages you will also need to ensure you have a environment variable called DISCORD_CHANNEL_ID set up so it send to the correct channel
+3. For scheduled tasks and messages you will also need to ensure you have a environment variable called DISCORD_CHANNEL_ID set up so it sends to the correct channel
 
 ## Usage
 
